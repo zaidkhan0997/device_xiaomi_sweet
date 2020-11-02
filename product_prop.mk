@@ -24,3 +24,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.dbg.wfc_avail_ovr=1 \
 	persist.vendor.radio.enable_temp_dds=true \
 	persist.vendor.radio.report_codec=1
+
+# SurfaceFlinger brightness tweak
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.sf.force_light_brightness=1
