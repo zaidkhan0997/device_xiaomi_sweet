@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common DotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_sweet
