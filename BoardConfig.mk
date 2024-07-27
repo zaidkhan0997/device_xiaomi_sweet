@@ -11,6 +11,9 @@ include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 -include vendor/xiaomi/sweet-miuicamera/products/board.mk
 
 DEVICE_PATH := device/xiaomi/sweet
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
