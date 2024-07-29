@@ -32,7 +32,7 @@ MALLOC_SVELTE_FOR_LIBC32 := true
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/hidl/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := sweet_defconfig
+TARGET_KERNEL_CONFIG := vendor/sweet.config
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
